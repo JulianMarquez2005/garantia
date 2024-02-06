@@ -1,19 +1,21 @@
 import React from 'react'
 
-const Header = () => {
+
+
+const Header = ({ titulo }) => {
     return (
-        <header className='bg-secondary  text-align:left'>
-            <div className='max-w-full-2x1 w-4/5 2xl:w-3/4 mx-auto'>
-                <nav className='bg-secondary'>
-                    <div className='justify-between items-center flex py-2 display-flex text-align left'>
-                        <h1>FINANZAUTO S.A BIC</h1>
-                    </div>
 
-                </nav>
 
+        <nav className='bg-secondary  bg-emerald-100'>
+            <div className='justify-between items-center flex py-2 display-flex text-align left'>
+                <a href='#' className='text-cyan-500'>{titulo}</a>
             </div>
 
-        </header>
+        </nav>
+
+
+
+
     );
 }
 

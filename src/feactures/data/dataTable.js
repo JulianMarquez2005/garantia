@@ -1,6 +1,6 @@
 export const datas = [
     {
-        id: 1,
+       
         Credito_Num_Pagare: 12345,
         Consecutivo: 1,
         Identificacion: 123456789,
@@ -16,7 +16,7 @@ export const datas = [
     
 
     {
-        id: 2,
+       
         Credito_Num_Pagare: 54321,
         Consecutivo: 2,
         Identificacion: 987654321,
@@ -30,7 +30,7 @@ export const datas = [
         Estado: "Vencido"
     },
     {
-        id: 3,
+        
         Credito_Num_Pagare: 98765,
         Consecutivo: 3,
         Identificacion: 456789123,
@@ -44,7 +44,7 @@ export const datas = [
         Estado: "Vigente"
     },
     {
-        id: 4,
+       
         Credito_Num_Pagare: 45678,
         Consecutivo: 4,
         Identificacion: 789123456,
@@ -58,7 +58,7 @@ export const datas = [
         Estado: "Vigente"
     },
     {
-        id: 5,
+        
         Credito_Num_Pagare: 13579,
         Consecutivo: 5,
         Identificacion: 369258147,
@@ -73,7 +73,7 @@ export const datas = [
     },
 
     {
-        id: 6,
+        
         Credito_Num_Pagare: 24680,
         Consecutivo: 6,
         Identificacion: 852963741,
@@ -87,7 +87,7 @@ export const datas = [
         Estado: "Vigente"
     },
     {
-        id: 7,
+        
         Credito_Num_Pagare: 97531,
         Consecutivo: 7,
         Identificacion: 159263748,
@@ -101,7 +101,7 @@ export const datas = [
         Estado: "Vencido"
     },
     {
-        id: 8,
+        
         Credito_Num_Pagare: 86420,
         Consecutivo: 8,
         Identificacion: 753159426,
@@ -115,7 +115,7 @@ export const datas = [
         Estado: "Vigente"
     },
     {
-        id: 9,
+        
         Credito_Num_Pagare: 75309,
         Consecutivo: 9,
         Identificacion: 951357246,
@@ -129,7 +129,7 @@ export const datas = [
         Estado: "Vigente"
     },
     {
-        id: 10,
+        
         Credito_Num_Pagare: 74125,
         Consecutivo: 10,
         Identificacion: 654852319,
@@ -143,7 +143,7 @@ export const datas = [
         Estado: "Vigente"
     },
     {
-        id: 11,
+       
         Credito_Num_Pagare: 36987,
         Consecutivo: 11,
         Identificacion: 258963147,
@@ -157,7 +157,7 @@ export const datas = [
         Estado: "Vigente"
     },
     {
-        id: 12,
+        
         Credito_Num_Pagare: 15963,
         Consecutivo: 12,
         Identificacion: 147852369,
@@ -171,7 +171,7 @@ export const datas = [
         Estado: "Vigente"
     },
     {
-        id: 13,
+        
         Credito_Num_Pagare: 25896,
         Consecutivo: 13,
         Identificacion: 369147258,
@@ -185,7 +185,7 @@ export const datas = [
         Estado: "Vencido"
     },
     {
-        id: 14,
+       
         Credito_Num_Pagare: 74185,
         Consecutivo: 14,
         Identificacion: 963852741,
@@ -199,7 +199,7 @@ export const datas = [
         Estado: "Vigente"
     },
     {
-        id: 15,
+        
         Credito_Num_Pagare: 36974,
         Consecutivo: 15,
         Identificacion: 258741369,
@@ -213,7 +213,7 @@ export const datas = [
         Estado: "Vigente"
     },
     {
-        id: 16,
+        
         Credito_Num_Pagare: 95123,
         Consecutivo: 16,
         Identificacion: 753951258,
@@ -227,7 +227,7 @@ export const datas = [
         Estado: "Vigente"
     },
     {
-        id: 17,
+       
         Credito_Num_Pagare: 85214,
         Consecutivo: 17,
         Identificacion: 654123987,
@@ -241,7 +241,7 @@ export const datas = [
         Estado: "Vigente"
     },
     {
-        id: 18,
+        
         Credito_Num_Pagare: 96325,
         Consecutivo: 18,
         Identificacion: 147963258,
@@ -255,7 +255,7 @@ export const datas = [
         Estado: "Vencido"
     },
     {
-        id: 19,
+        
         Credito_Num_Pagare: 14785,
         Consecutivo: 19,
         Identificacion: 369852147,
@@ -269,7 +269,7 @@ export const datas = [
         Estado: "Vigente"
     },
     {
-        id: 20,
+        
         Credito_Num_Pagare: 36985,
         Consecutivo: 20,
         Identificacion: 258741963,
@@ -283,7 +283,7 @@ export const datas = [
         Estado: "Vigente"
     },
     {
-        id: 21,
+       
         Credito_Num_Pagare: 98765,
         Consecutivo: 21,
         Identificacion: 654789123,
@@ -297,7 +297,7 @@ export const datas = [
         Estado: "Vigente"
     },
     {
-        id: 22,
+        
         Credito_Num_Pagare: 12365,
         Consecutivo: 22,
         Identificacion: 741258963,
@@ -311,7 +311,7 @@ export const datas = [
         Estado: "Vigente"
     },
     {
-        id: 23,
+        
         Credito_Num_Pagare: 36925,
         Consecutivo: 23,
         Identificacion: 258369147,
@@ -325,7 +325,7 @@ export const datas = [
         Estado: "Vigente"
     },
     {
-        id: 24,
+        
         Credito_Num_Pagare: 96385,
         Consecutivo: 24,
         Identificacion: 147963852,
