@@ -3,18 +3,19 @@ import Table from "./components/table/Table";
 import { useState } from "react";
 import React, { useEffect } from "react";
 import { getDatas } from "./feactures/services/dataService";
+import { RecordListingTable } from './components/table/RecordListingTable'
 
 function App() {
   return (
     <>
       <div>
         <Header 
-        titulo='FINANZAUTO S.A BIC'
+        titulo='Listado de registros'
         />
       </div>
 
       <section>
-        <Table />
+        <RecordListingTable />
       </section>
 
       <footer>
