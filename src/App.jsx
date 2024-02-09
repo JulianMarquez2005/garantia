@@ -16,7 +16,7 @@ function App() {
       </div>
 
       <section>
-        < Table/>
+        < RecordListingTable/>
       </section>
 
       <footer>

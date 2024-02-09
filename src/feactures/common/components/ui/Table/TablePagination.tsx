@@ -47,7 +47,7 @@ export const TablePagination = memo(
                     </button>
 
                     {generatePageButtons({ pageIndex, pageCount }).map(({ id, page, isCurrent, label }) => {
-                        const ariaLabel = page ? `Ir a la página ${page}` : 'Otras páginas'
+                        const ariaLabel = page ? `Ir a la página ${page}` : 'Otras páginas';
                         return (
                             <button
                                 aria-label={ariaLabel}
@@ -55,7 +55,7 @@ export const TablePagination = memo(
                                     }`}
                                 disabled={isCurrent || isFetching || !page}
                                 key={id}
-                                onClick={page ? () => goToPage(page) : undefined}
+                                //onClick={() => goToPage(page)}
                             >
                                 {label}
                             </button>
