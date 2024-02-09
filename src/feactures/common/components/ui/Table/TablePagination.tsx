@@ -159,6 +159,3 @@ const generatePageButtons = ({
 
 
 }
-
-
-

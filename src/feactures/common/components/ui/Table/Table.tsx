@@ -36,4 +36,7 @@ const TableRoot: React.FC<TableProps> = ({ children, wrapperProps, ...restOfProp
     Cell: TableCell,
     Row: TableRow,
     Pagination: TablePagination
+    
   })
+
+  

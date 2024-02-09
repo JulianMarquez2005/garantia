@@ -1,9 +1,10 @@
 import Header from "./components/header/Header";
-import Table from "./components/table/Table";
+
 import { useState } from "react";
 import React, { useEffect } from "react";
 import { getDatas } from "./feactures/services/dataService";
 import { RecordListingTable } from './components/table/RecordListingTable'
+import Table from '../src/components/table/Table'
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
       </div>
 
       <section>
-        <RecordListingTable />
+        < Table/>
       </section>
 
       <footer>

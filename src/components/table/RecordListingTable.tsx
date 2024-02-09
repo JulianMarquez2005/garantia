@@ -28,7 +28,7 @@ export const RecordListingTable: React.FC<GetDataTableProps> = ({ pagination }) 
 
   return (
     <div>
-      <Table>
+      <Table className='border-b border-gray-300 text-gray-600 bg-gray-100'>
         <Table.Header>
           <Table.Row>
             {columns.map((column, index) => (
