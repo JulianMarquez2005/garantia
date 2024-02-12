@@ -6,7 +6,7 @@ interface PageButton {
     id: number | string
     isCurrent: boolean
     label: string | number
-    page?: number
+    page: number 
 }
 
 export interface TablePaginationProps {
@@ -55,7 +55,7 @@ export const TablePagination = memo(
                                     }`}
                                 disabled={isCurrent || isFetching || !page}
                                 key={id}
-                                //onClick={() => goToPage(page)}
+                                onClick={() => goToPage(page)}
                             >
                                 {label}
                             </button>
@@ -113,7 +113,10 @@ const generatePageButtons = ({
             }))
         )
 
-        PageButtons.push({ id: 'next-pages', isCurrent: false, label: '...' })
+        PageButtons.push({
+            id: 'next-pages', isCurrent: false, label: '...',
+            page: 0
+        })
         PageButtons.push({ id: pageCount, isCurrent: false, page: pageCount, label: pageCount })
 
         return PageButtons
@@ -122,7 +125,10 @@ const generatePageButtons = ({
 
     if (isInLastPages) {
         PageButtons.push({ id: 1, isCurrent: false, page: 1, label: 1 })
-        PageButtons.push({ id: 'previous-pages', isCurrent: false, label: '...' })
+        PageButtons.push({
+            id: 'previous-pages', isCurrent: false, label: '...',
+            page: 6
+        })
         PageButtons.push(
             ...Array.from({ length: BUTTONS_PER_SIDE }, (_, i) => ({
                 id: pageCount - i,
@@ -136,7 +142,10 @@ const generatePageButtons = ({
     }
 
     PageButtons.push({ id: pageIndex, isCurrent: true, page: pageCount, label: pageIndex })
-    PageButtons.push({ id: 'previous-pages', isCurrent: false, label: '...' })
+    PageButtons.push({
+        id: 'previous-pages', isCurrent: false, label: '...',
+        page: 0
+    })
     PageButtons.push({
         id: pageIndex - 1,
         isCurrent: false,
@@ -152,7 +161,10 @@ const generatePageButtons = ({
         label: pageIndex + 1
     })
 
-    PageButtons.push({ id: 'next-pages', isCurrent: false, label: '...' })
+    PageButtons.push({
+        id: 'next-pages', isCurrent: false, label: '...',
+        page: 0
+    })
     PageButtons.push({ id: pageCount, isCurrent: false, page: pageCount, label: pageCount })
 
     return PageButtons

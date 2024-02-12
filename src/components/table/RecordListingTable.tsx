@@ -3,7 +3,7 @@ import { Table } from '../../feactures/common/components/ui/Table/index';
 import { TablePaginationProps } from '../../feactures/common/components/ui/Table/TablePagination';
 import { getDatas } from "../../feactures/services/dataService";
 import {
-  createColumnHelper
+  createColumnHelper 
 } from '@tanstack/react-table';
 
 interface GetDataTableProps {
@@ -20,7 +20,7 @@ export const RecordListingTable: React.FC<GetDataTableProps> = ({ pagination }) 
   const pageSize = 6;
 
 
-  const getCurrentPageData = () => {
+  const getCurrentPageData =() => {
     const startIndex = (currentPage - 1) * pageSize;
     const endIndex = startIndex + pageSize;
     return data.slice(startIndex, endIndex);

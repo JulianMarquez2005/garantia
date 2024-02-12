@@ -19,6 +19,10 @@ function App() {
         < RecordListingTable/>
       </section>
 
+      <section>
+        <Table/>
+      </section>
+
       <footer>
         <p>&copy; 2024 Finanzauto. Todos los derechos reservados.</p>
       </footer>
